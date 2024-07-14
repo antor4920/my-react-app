@@ -4,6 +4,8 @@ import './App.css';
 // import Welcome from './components/Welcome';
 // import Counter from './components/Counter'
 import ClickEvent from './components/ClickEvent';
+import Parant from './components/Parant';
+import ListItem from './components/ListItem';
 
 
 function App() {
@@ -13,6 +15,8 @@ function App() {
     <Welcome/> */}
     {/* <Counter/> */}
    <ClickEvent/>
+   <Parant/>
+   <ListItem/>
     </div>
   );
 }
