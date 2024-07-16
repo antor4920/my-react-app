@@ -6,17 +6,19 @@ import './App.css';
 import ClickEvent from './components/ClickEvent';
 import Parant from './components/Parant';
 import ListItem from './components/ListItem';
+import Form from './components/Form';
 
 
 function App() {
   return (
     <div className="App">
+      <Form/>
     {/* <Greet name="Ali"/>
     <Welcome/> */}
     {/* <Counter/> */}
-   <ClickEvent/>
-   <Parant/>
-   <ListItem/>
+   {/* <ClickEvent/> */}
+   {/* <Parant/> */}
+   {/* <ListItem/> */}
     </div>
   );
 }
